@@ -36,4 +36,6 @@
 	"dependencies": {
 		"html-loader": "^2.1.2"
 	}
+	
+	
 }
