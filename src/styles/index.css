@@ -152,35 +152,25 @@ a {
 	h1 {
 		font-size: 4rem;
 	}
-	/* .hero{
-		margin-top: 16rem;
-	} */
+	
 }
 
-@media (max-width: 580px) {
+@media (max-width:580px) {
 	h2 {
 		font-size: 1.5rem;
 	}
-	/* .hero{
-		margin-top: 6em;
-	} */
+	
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
 	h1 {
 		font-size: 3rem;
 	}
 	#top{
 		margin-bottom: 20px;
 	}
-	/* .hero{
-		margin-top: 6em;
-	}
-	.hero-about{
-		margin-top: 6em; */
-		/* border: 1px solid black; */
 	
-	/* } */
+	
 }
 
 /* =============
@@ -413,12 +403,13 @@ footer small {
 
 @media (max-width: 580px) {
 	nav ul {
+		width:fit-content;
 		flex-direction: column;
-		padding: 4em 0;
+		padding:2em 0;
 		position: absolute;
-		right: 0;
-		left: 0;
-		top: 5em;
+		right: -100px;
+		left: -130%;
+		top: 4.1em;
 		background-color: var(--bg);
 		width: 0;
 		overflow: hidden;
@@ -426,11 +417,12 @@ footer small {
 	}
 
 	.display-nav-list {
-		width: 100%;
+		width: 230%;
 	}
 
 	nav li {
 		margin: 0.5em 0;
+
 	}
 
 	.hero,
@@ -611,7 +603,7 @@ nav .link {
 	margin-bottom: 40px;
 	width: 250px;
 	height: 270px;
-	margin-left: 95px;
+	margin-left:95px;
 	margin-top: 60px;
 	
 	border-radius:50%;
@@ -643,4 +635,14 @@ nav .link {
 	background-color: #f5f6f7;
 	width: 100%;
 	backdrop-filter: blur(8px);
+}
+@media (max-width:580px){
+	#profile_div {
+		margin-left: 23.5%;
+	}
+}
+@media (max-width:360px){
+	#profile_div {
+		margin-left: 12%;
+	}
 }

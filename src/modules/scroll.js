@@ -6,6 +6,9 @@ const scrollUp = () => {
 		document.documentElement.scrollTop > 300
 	) {
 		btnScrollUp.style.display = 'block';
+		btnScrollUp.addEventListener("click",()=>{
+			document.documentElement.scrollTop="0px"
+		})
 	} else {
 		btnScrollUp.style.display = 'none';
 	}
