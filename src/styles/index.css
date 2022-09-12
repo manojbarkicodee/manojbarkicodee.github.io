@@ -152,18 +152,35 @@ a {
 	h1 {
 		font-size: 4rem;
 	}
+	/* .hero{
+		margin-top: 16rem;
+	} */
 }
 
 @media (max-width: 580px) {
 	h2 {
 		font-size: 1.5rem;
 	}
+	/* .hero{
+		margin-top: 6em;
+	} */
 }
 
 @media (max-width: 320px) {
 	h1 {
 		font-size: 3rem;
 	}
+	#top{
+		margin-bottom: 20px;
+	}
+	/* .hero{
+		margin-top: 6em;
+	}
+	.hero-about{
+		margin-top: 6em; */
+		/* border: 1px solid black; */
+	
+	/* } */
 }
 
 /* =============
@@ -385,6 +402,7 @@ footer small {
 		max-height: 100%;
 		margin: 0 auto;
 		margin-bottom: 2em;
+		object-fit: cover;
 	}
 
 	.project-content {
@@ -416,9 +434,8 @@ footer small {
 	}
 
 	.hero,
-	.hero-about,
-	section {
-		margin-top: 2.5em;
+	.hero-about {
+		margin-top: 6em;
 	}
 
 	.hero {
@@ -576,6 +593,7 @@ nav .link {
 	.fa-bars {
 		display: flex;
 	}
+	
 }
 
 .prImg {
@@ -583,18 +601,22 @@ nav .link {
 	height: 250px;
 }
 #profile_img {
-	width: 100%;
-	height: 100%;
-	border-radius: 130px;
+	width: 250px;
+	height: 270px;
+	border-radius:50%;
 	
+	object-fit: cover;
 }
 #profile_div {
 	margin-bottom: 40px;
 	width: 250px;
-	height: 230px;
+	height: 270px;
 	margin-left: 95px;
-	margin-top: 70px;
-	border-radius: 130px;
+	margin-top: 60px;
+	
+	border-radius:50%;
+	
+
 }
 #nav-bar {
 	position: fixed;
@@ -614,7 +636,7 @@ nav .link {
 
 #top {
 	position: fixed;
-	top: 0;
+	top: 0px;
 	left: 10px;
 
 	opacity: 0.8;
