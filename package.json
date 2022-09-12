@@ -13,7 +13,7 @@
 		"lint:fix": "eslint --fix .",
 		"format": "prettier --write \"**/*.+(js|json|html|css|md)\""
 	},
-	"author": "Hanumaraddi",
+	"author": "Manoj Barki",
 	"license": "GPL-3.0-or-later",
 	"homepage": ".",
 	"devDependencies": {
