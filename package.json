@@ -4,11 +4,12 @@
 	"description": "My personal portfolio website.",
 	"private": true,
 	"scripts": {
+		"predeploy": "npm run build",
+        "deploy": "gh-pages -d dist",
 		"start": "webpack serve --mode development",
 		"watch": "webpack --watch --mode development",
 		"build": "webpack --mode production",
 		"build-dev": "webpack",
-		"deploy": "gh-pages -d dist",
 		"lint": "eslint .",
 		"lint:fix": "eslint --fix .",
 		"format": "prettier --write \"**/*.+(js|json|html|css|md)\""
