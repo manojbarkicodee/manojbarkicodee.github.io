@@ -1,4 +1,4 @@
-{
+{"homepage": "https://manojbarkicodee.github.io",
 	"name": "portfolio",
 	"version": "1.0.0",
 	"description": "My personal portfolio website.",
@@ -15,7 +15,7 @@
 	},
 	"author": "Manoj Barki",
 	"license": "GPL-3.0-or-later",
-	"homepage": ".",
+	
 	"devDependencies": {
 		"@babel/core": "^7.15.5",
 		"@babel/preset-env": "^7.15.4",
