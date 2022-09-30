@@ -72,10 +72,13 @@ var displayList = function displayList() {
 ;// CONCATENATED MODULE: ./src/index.js
 
 
+ // import {github} from './modules/github'
 
 
 var src_btnHamburger = document.querySelector('.fa-bars');
 var src_btnTheme = document.querySelector('.fa-moon');
+var github1 = document.querySelector("#github"); // github1.innerHTML
+
 src_btnHamburger.addEventListener('click', modules_displayList);
 src_btnTheme.addEventListener('click', toggleTheme);
 document.addEventListener('scroll', modules_scroll.scrollUp);
